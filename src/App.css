@@ -1,0 +1,15 @@
+.app-wrapper {
+  margin: 5px;
+  display: grid;
+  grid-template-areas:
+    "header header profile"
+    "content content profile";
+  grid-template-rows: 50px 1fr;
+  grid-template-columns: 12fr;
+  grid-gap: 5px;
+}
+
+.app-wrapper-content {
+  grid-area: content;
+  background-color: wheat
+}

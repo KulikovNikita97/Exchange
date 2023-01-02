@@ -1,0 +1,19 @@
+.profile {
+  grid-area: profile;
+  background-color: aqua;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.userName {
+  margin: 10px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px;
+}
